@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		694427C6A34CA560537F6C2E /* Pods_Cart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 560582BE840F7D9CCEDB456C /* Pods_Cart.framework */; };
 		F009A9E622E0F32000E16712 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F009A9E522E0F32000E16712 /* AppDelegate.swift */; };
 		F009A9E822E0F32000E16712 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F009A9E722E0F32000E16712 /* ViewController.swift */; };
 		F009A9EB22E0F32000E16712 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F009A9E922E0F32000E16712 /* Main.storyboard */; };
 		F009A9ED22E0F32800E16712 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F009A9EC22E0F32800E16712 /* Assets.xcassets */; };
 		F009A9F022E0F32800E16712 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F009A9EE22E0F32800E16712 /* LaunchScreen.storyboard */; };
+		F009A9F822E0F50800E16712 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F009A9F722E0F50800E16712 /* DetailViewController.swift */; };
+		F01135732341013D00C87C84 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01135722341013D00C87C84 /* CollectionViewCell.swift */; };
+		F01135752341400000C87C84 /* FirstPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01135742341400000C87C84 /* FirstPageViewController.swift */; };
+		F0113577234285FD00C87C84 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0113576234285FD00C87C84 /* CartViewController.swift */; };
+		F01135792342876600C87C84 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01135782342876600C87C84 /* CustomCell.swift */; };
+		F0810ACF231C3EB10068E18E /* TabsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0810ACE231C3EB10068E18E /* TabsViewController.swift */; };
+		F0810AD2231C41550068E18E /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0810AD1231C41550068E18E /* WebKit.framework */; };
+		F0810AD6231ECEF10068E18E /* CartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0810AD5231ECEF10068E18E /* CartModel.swift */; };
+		F0810AD8231EDA160068E18E /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0810AD7231EDA160068E18E /* MyTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		36610D9F38EA391612B52391 /* Pods-Cart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cart.release.xcconfig"; path = "Target Support Files/Pods-Cart/Pods-Cart.release.xcconfig"; sourceTree = "<group>"; };
+		560582BE840F7D9CCEDB456C /* Pods_Cart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC3EB300035EA6DE5B6A93CA /* Pods-Cart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cart.debug.xcconfig"; path = "Target Support Files/Pods-Cart/Pods-Cart.debug.xcconfig"; sourceTree = "<group>"; };
 		F009A9E222E0F32000E16712 /* Cart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F009A9E522E0F32000E16712 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F009A9E722E0F32000E16712 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +35,15 @@
 		F009A9EC22E0F32800E16712 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F009A9EF22E0F32800E16712 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F009A9F122E0F32800E16712 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F009A9F722E0F50800E16712 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		F01135722341013D00C87C84 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		F01135742341400000C87C84 /* FirstPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPageViewController.swift; sourceTree = "<group>"; };
+		F0113576234285FD00C87C84 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		F01135782342876600C87C84 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		F0810ACE231C3EB10068E18E /* TabsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsViewController.swift; sourceTree = "<group>"; };
+		F0810AD1231C41550068E18E /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		F0810AD5231ECEF10068E18E /* CartModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartModel.swift; sourceTree = SOURCE_ROOT; };
+		F0810AD7231EDA160068E18E /* MyTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +51,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0810AD2231C41550068E18E /* WebKit.framework in Frameworks */,
+				694427C6A34CA560537F6C2E /* Pods_Cart.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BAB5D2F4079E5D939AAF9812 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC3EB300035EA6DE5B6A93CA /* Pods-Cart.debug.xcconfig */,
+				36610D9F38EA391612B52391 /* Pods-Cart.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F009A9D922E0F31F00E16712 = {
 			isa = PBXGroup;
 			children = (
 				F009A9E422E0F32000E16712 /* Cart */,
 				F009A9E322E0F32000E16712 /* Products */,
+				F0810AD0231C41540068E18E /* Frameworks */,
+				BAB5D2F4079E5D939AAF9812 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +90,30 @@
 			isa = PBXGroup;
 			children = (
 				F009A9E522E0F32000E16712 /* AppDelegate.swift */,
+				F0810AD5231ECEF10068E18E /* CartModel.swift */,
 				F009A9E722E0F32000E16712 /* ViewController.swift */,
+				F009A9F722E0F50800E16712 /* DetailViewController.swift */,
 				F009A9E922E0F32000E16712 /* Main.storyboard */,
+				F0113576234285FD00C87C84 /* CartViewController.swift */,
+				F01135782342876600C87C84 /* CustomCell.swift */,
+				F01135742341400000C87C84 /* FirstPageViewController.swift */,
+				F01135722341013D00C87C84 /* CollectionViewCell.swift */,
+				F0810AD7231EDA160068E18E /* MyTabBarController.swift */,
+				F0810ACE231C3EB10068E18E /* TabsViewController.swift */,
 				F009A9EC22E0F32800E16712 /* Assets.xcassets */,
 				F009A9EE22E0F32800E16712 /* LaunchScreen.storyboard */,
 				F009A9F122E0F32800E16712 /* Info.plist */,
 			);
 			path = Cart;
+			sourceTree = "<group>";
+		};
+		F0810AD0231C41540068E18E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0810AD1231C41550068E18E /* WebKit.framework */,
+				560582BE840F7D9CCEDB456C /* Pods_Cart.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +123,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F009A9F422E0F32800E16712 /* Build configuration list for PBXNativeTarget "Cart" */;
 			buildPhases = (
+				2DE059B0EDF287F1C7CD0BAD /* [CP] Check Pods Manifest.lock */,
 				F009A9DE22E0F32000E16712 /* Sources */,
 				F009A9DF22E0F32000E16712 /* Frameworks */,
 				F009A9E022E0F32000E16712 /* Resources */,
+				DBDC67993D6A03EE323DFED7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +184,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2DE059B0EDF287F1C7CD0BAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cart-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBDC67993D6A03EE323DFED7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cart/Pods-Cart-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftSoup/SwiftSoup.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSoup.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cart/Pods-Cart-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F009A9DE22E0F32000E16712 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0810AD6231ECEF10068E18E /* CartModel.swift in Sources */,
+				F0810ACF231C3EB10068E18E /* TabsViewController.swift in Sources */,
+				F01135732341013D00C87C84 /* CollectionViewCell.swift in Sources */,
+				F009A9F822E0F50800E16712 /* DetailViewController.swift in Sources */,
 				F009A9E822E0F32000E16712 /* ViewController.swift in Sources */,
+				F01135792342876600C87C84 /* CustomCell.swift in Sources */,
+				F01135752341400000C87C84 /* FirstPageViewController.swift in Sources */,
 				F009A9E622E0F32000E16712 /* AppDelegate.swift in Sources */,
+				F0113577234285FD00C87C84 /* CartViewController.swift in Sources */,
+				F0810AD8231EDA160068E18E /* MyTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +393,7 @@
 		};
 		F009A9F522E0F32800E16712 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC3EB300035EA6DE5B6A93CA /* Pods-Cart.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +412,7 @@
 		};
 		F009A9F622E0F32800E16712 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36610D9F38EA391612B52391 /* Pods-Cart.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
